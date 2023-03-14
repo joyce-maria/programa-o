@@ -21,4 +21,29 @@ a{
 .header{
 
     background-color: rgb(238, 12, 4);
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px;
+
+
+    .menu { 
+        display: float: 
+    }
+
+    .menu li{
+        margin-left: 10px;
+    }
+
+    .menu li a{
+        display: block;
+        padding: 10px;
+        background-color: slateblue;
+    }
 }
