@@ -14,13 +14,13 @@ body, ul, li, p{
 
 a{
     text-decoration: none;
-    color: rgb(247, 247, 247);
+    color: rgb(8, 0, 0);
 }
 
 
 .header{
 
-    background-color: rgb(253, 1, 1);
+    background-color: rgb(233, 233, 233);
 
     display: flex;
 
@@ -34,7 +34,7 @@ a{
 
 
     .menu { 
-        display: float: 
+        display: flex: 
     }
 
     .menu li{
@@ -44,6 +44,38 @@ a{
     .menu li a{
         display: block;
         padding: 10px;
-        background-color: slateblue;
     }
+
+    .flex{
+      min-height: 100vh;  
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .imagem{
+        width: 400px;
+        height: auto;
+
+    }
+
+    .item{
+        display: flex;
+        align-items: flex-start;
+        border: 2px solid black;
+        margin: 10px;
+
+    }
+
+    .paragrafo{
+        font-family: 'Poppins',sans-serif;
+        font-family: 'Raleway',sans-serif;
+        padding: 10px;
+        text-align: justify;
+        
+    }
+
+
+
 }
